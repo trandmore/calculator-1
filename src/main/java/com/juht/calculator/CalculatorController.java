@@ -12,5 +12,10 @@ class CalculatorController {
 			   @RequestParam("b") Integer b) {
 		return String.valueOf(calculator.sum(a,b));
 	}
+	@RequestMapping("/dif")
+		String Dif(@RequestParam("a") Integer a,
+			   @RequestParam("b") Integer b) {
+		return String.valueOf(calculator.dif(a,b));
+	}
 }
 
