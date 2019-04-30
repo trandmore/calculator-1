@@ -9,10 +9,19 @@ public class CalculatorTest {
 	private Calculator calculator = new Calculator();
 
 	@Test
+	/**
+	   This is a sample java doc
+	   juht
+	*/
 	public void testSum(){
 		assertEquals(5, calculator.sum(2,3));
 	}
+
 	@Test
+	/**
+	   This is a sample java doc
+	   juht
+	*/
 	public void testDif(){
 		assertEquals(-1, calculator.dif(2,3));
 	}
